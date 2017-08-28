@@ -36,7 +36,6 @@ if (size != 2) {
 }
 
 // Load image from file
-//let inputURL = URL(fileURLWithPath: "/Users/benjamin/Code/Sandbox/CmdSand/cmdLabel/elephant.jpg")
 let inputURL = URL(fileURLWithPath: a[1])
 let inputImage = CIImage(contentsOf: inputURL)
 

@@ -24,9 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		431C0B351F54BAFC007AA5F7 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
 		432FA02B1F4CB1CB009C0BB6 /* CmdSand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CmdSand; sourceTree = BUILT_PRODUCTS_DIR; };
 		432FA02E1F4CB1CB009C0BB6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		432FA0371F4CB480009C0BB6 /* elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elephant.jpg; sourceTree = "<group>"; };
 		432FA0421F5228FD009C0BB6 /* ResNet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ResNet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +44,7 @@
 		432FA0221F4CB1CB009C0BB6 = {
 			isa = PBXGroup;
 			children = (
+				431C0B351F54BAFC007AA5F7 /* img */,
 				432FA02D1F4CB1CB009C0BB6 /* cmdLabel */,
 				432FA02C1F4CB1CB009C0BB6 /* Products */,
 			);
@@ -61,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				432FA0421F5228FD009C0BB6 /* ResNet50.mlmodel */,
-				432FA0371F4CB480009C0BB6 /* elephant.jpg */,
 				432FA02E1F4CB1CB009C0BB6 /* main.swift */,
 			);
 			path = cmdLabel;

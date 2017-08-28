@@ -65,7 +65,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Users/benjamin/Code/Sandbox/CmdSand/cmdLabel/elephant.jpg"
+            argument = "/Users/benjamin/Code/coremltools_experimentation/img/IMG_0.jpg"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
