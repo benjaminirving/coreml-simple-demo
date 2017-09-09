@@ -2,6 +2,8 @@
 
 # Running a Keras machine learning model under macOS with coreML
 
+[see blog post](http://www.birving.com/blog/2017/09/02/the-move-towards-library-agnostic-machine-learning)
+
 ## Requirements
 
 - Python 2 (unfortunately coremltools only supports Python 2 at the moment)
