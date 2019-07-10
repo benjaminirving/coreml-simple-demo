@@ -5,18 +5,16 @@
 
 """
 
-from __future__ import print_function
-
-import urllib
 import os
 import json
+from urllib.request import urlretrieve
 
 from keras.applications.resnet50 import ResNet50
 from keras.preprocessing import image
 from keras.applications.resnet50 import preprocess_input, decode_predictions
 
 import numpy as np
-from scipy.ndimage import imread
+from imageio import imread
 import matplotlib.pyplot as plt
 
 import coremltools
@@ -33,7 +31,7 @@ def get_imagenet_class_labels():
     class_label_path = 'https://s3.amazonaws.com/deep-learning-models/image-models/imagenet_class_index.json'
 
     if not os.path.isfile("imagenet.json"):
-        urllib.urlretrieve(class_label_path, "imagenet.json")
+        urlretrieve(class_label_path, "imagenet.json")
     with open("imagenet.json") as json_data:
         d = json.load(json_data)
         print(d)
@@ -41,7 +39,7 @@ def get_imagenet_class_labels():
     # Create a list of the class labels
     class_labels = []
     for ii in range(len(d.keys())):
-        class_labels.append(d[str(ii)][1].encode('ascii', 'ignore'))
+        class_labels.append(d[str(ii)][1])
 
     return class_labels
 

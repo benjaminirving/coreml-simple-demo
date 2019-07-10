@@ -4,11 +4,13 @@
 
 [see blog post](http://www.birving.com/blog/2017/09/02/the-move-towards-library-agnostic-machine-learning)
 
+## Updates:
+- Code updated for Python 3
+
 ## Requirements
 
-- Python 2 (unfortunately coremltools only supports Python 2 at the moment)
-- The python environment can be reproduced using the Anaconda/miniconda environment.yml file
-- macOS 10.13 beta and Xcode 9-beta
+- A python virutal environment can be created from the requirements file. 
+- macOS 10.13 or above
 
 ## Data
 
