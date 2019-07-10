@@ -4,7 +4,7 @@
 
 [see blog post](http://www.birving.com/blog/2017/09/02/the-move-towards-library-agnostic-machine-learning)
 
-## Updates:
+## Update (10 July 2019):
 - Code updated for Python 3
 
 ## Requirements
