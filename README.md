@@ -9,8 +9,8 @@
 
 ## Requirements
 
-- A python virutal environment can be created from the requirements file. 
-- macOS 10.13 or above
+- A python virtual environment can be created from the requirements file. 
+- macOS
 
 ## Data
 
@@ -24,7 +24,7 @@ run it on example images and save it in the mlmodel format
 
 ## Swift command line application
 
-- Add the ResNet50.mlmodel to the xcode library
-- Build the project
-- See example results
-- Find the compiled binary and run on an example image e.g. ./CmdSand /path/to/example.img
+- Add the ResNet50.mlmodel to the Xcode library
+- Build the project in Xcode
+- See example results in blog
+- Find the compiled binary and run on an example image e.g. `./CmdSand /path/to/example.img`
